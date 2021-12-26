@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+  background: url(img/f-admi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    margin: 0;
+   font-family: Lato, sans-serif;
+   
+}
+
+
+.crerd{
+background: #4806a0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0598ec, #014a7a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,  #0598ec, #014a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 3px;
+font-size: 17px;
+width: 130px;
+height: 30px;
+border-radius: 20px;
+
+}
+.card{
+  
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  border-radius: 10px;
+  
+}
+/*.card-body{
+  background: url(fp1.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+*/
+
+
+.pupi{
+  width: 70%;
+  height: 70%;
+  
+}
+
+.up{
+  background: url(img/f-admi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bububu{
+  width: 100px;
+  height: 40px;
+  padding-top: 3px;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(to right, #0598ec, #014a7a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #0598ec, #014a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.form-control{
+  width: 80%;
+  border-radius: 20px;
+  background: rgb(137, 201, 253);
+  color:#f7f7f7;
+  
+}
+

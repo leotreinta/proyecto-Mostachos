@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+    background: url(img/logo7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;/* para hacer la imagen flotante */
+  margin: 0;
+  font-family: Lato, sans-serif;
+  
+   
+}
+
+
+.card-header{
+background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+color:white;
+font-family: Brush Script MT;
+font-size: 40px;
+    
+}
+.card{
+  background: url(img/logo7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 70%;
+  height: 80%;
+  align-self: center;
+  border-radius: 20px;
+  color:white;
+ 
+  
+}
+/*.card-body{
+  background: url(fp1.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+*/
+
+
+.bububu{
+  background: #4806a0;  /* fallback for old browsers */
+  width: 100px;
+  height: 40px;
+  padding-top: 3px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(to right, #8d37ee, #2b026d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8d37ee, #2b026d);   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-transform: uppercase;
+  font-weight: bold;
+}

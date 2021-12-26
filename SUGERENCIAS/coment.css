@@ -1,0 +1,93 @@
+body {
+   
+    background: url(fp3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+
+h2{
+    font-family: Brush Script MT;
+  
+      text-align: center;
+      color:rgb(255, 184, 4);
+      font-size: 50px;
+      letter-spacing: 5px;
+      margin: 25px 0 0;
+      padding-top: 3px;
+    
+  }
+
+  h4{
+    text-transform: uppercase;
+    font-family: Lucida Bright;
+      text-align: center;
+      color:white;
+      font-weight: bold;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: Lucida Bright;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 184, 4);
+    letter-spacing: 1px;
+    
+}
+#example{
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: Lucida Bright;
+     border-color: rgb(5, 192, 206);
+     text-decoration-style: solid;
+     font-weight: bold;
+    
+}
+table.dataTable thead {
+  text-transform: uppercase;
+  background: #6bbbe9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  color:black;
+  
+}
+table.dataTable tbody {
+  border-radius: 10px;
+  background: #6bbbe9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  color:white;
+  
+}
+  
+  .card-header{
+  background: #6bbbe9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  color:white;
+  }
+  header{
+   
+    border-radius: 10px;
+    background: black;
+   
+}
+
+.caja{
+  /* border: 1px solid; */
+  padding: 5px;
+  background-color:#e6e1de;
+  box-shadow: 10px 10px 50px 1px white;
+  border-radius: 10px;
+}
+
+.navar{
+  /* border: 1px solid; */
+  padding: 5px;
+ 
+  border-radius: 10px;
+}

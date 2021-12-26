@@ -1,0 +1,63 @@
+body {
+    height: 50%;
+    background: url(fp2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backface-visibility: unset;
+  }
+
+
+h2{
+    font-family: Brush Script MT;
+  
+      text-align: center;
+      color:rgb(255, 184, 4);
+      font-size: 50px;
+      letter-spacing: 5px;
+      margin: 25px 0 0;
+      padding-top: 3px;
+    
+  }
+
+  h4{
+   
+    font-family: Lucida Bright;
+      text-align: center;
+      color:white;
+      font-weight: bold;
+  }
+
+  p{
+    padding-top: 5px;
+    font-family: Lucida Bright;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 184, 4);
+    letter-spacing: 1px;
+    
+}
+#example{
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* paneles intercalados*/
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* gradiante entre colores */   
+    font-family: Lucida Bright;
+     border-color: rgb(13, 65, 161);
+     text-decoration-style: solid;
+     font-weight: bold;
+    
+}
+
+header{
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  }
+  
+  .card-header{
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  color:white;
+  }

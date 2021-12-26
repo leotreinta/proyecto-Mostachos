@@ -1,0 +1,39 @@
+body{
+    background:url(fp3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+ table.dataTable thead {
+    border-radius: 10px;
+    background: #007bff;
+    color:white;
+}
+
+.navar{
+    /* border: 1px solid; */
+    padding: 5px;
+   
+    border-radius: 10px;
+  }
+.caja{
+  /* border: 1px solid; */
+  padding: 5px;
+  background-color:#e6e1de;
+  box-shadow: 10px 10px 50px 1px white;
+  border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+header{
+   
+    border-radius: 10px;
+   
+    background: black;
+    
+}

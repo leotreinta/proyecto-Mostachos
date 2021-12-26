@@ -1,0 +1,88 @@
+html,
+body {
+    
+    background: url(fp3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  h4{
+      font-family: Brush Script MT;
+      text-align: center;
+      color:rgb(255, 184, 4);
+      font-size: 45px;
+      letter-spacing: 5px;
+      margin: 25px 0 0;
+      background-color: rgb(16, 47, 77);
+      width: 100%;
+
+  }
+  h4 span{
+      color:rgb(255, 184, 4);
+  }
+
+  p{
+      padding-top: 5px;
+      font-family: Lucida Bright;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      color:rgb(255, 184, 4);
+      letter-spacing: 1px;
+      background-color:rgb(22, 63, 104);
+  }
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 50px;
+    
+}
+
+.thumbnail {
+    background: rgb(17, 14, 14);
+}
+
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover{
+
+    border: 5px solid #d44633;
+}
+
+single-img img{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: .9s;
+}
+
+.single-img:hover{
+    transform: scale(1.6) ;
+    z-index: 2;
+    box-shadow: 0px 0px 0px rgb(200, 201, 221);
+}
+
+.single-img:hover img{
+    opacity: 2;
+}
+
+
+.navar{
+    /* border: 1px solid; */
+    padding: 5px;
+   
+    border-radius: 10px;
+  }
+
+  header{
+   
+    border-radius: 10px;
+   
+    background: black;
+    
+}
